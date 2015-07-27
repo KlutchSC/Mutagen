@@ -6,8 +6,8 @@ public class BadGuySpawner : MonoBehaviour {
     public GameObject badGuyPre;
     public GameObject mutantPre;
 
-	// Update is called once per frame
-	void Awake () {
+	void Awake ()
+    {
         InvokeRepeating("SpawnBadGuy", 1.0f, 5.0f);
         InvokeRepeating("SpawnMutant", 1.0f, 12.0f);
 	}

@@ -106,21 +106,15 @@ public class EnemyController : Unit {
 
     public void TakeDamage()
     {
-        //I need to figure out a way to tell the enemy what mutagen he was hit with.
-
-        //increase total health points
-        //apply a knockback based on health value
-        //Call once per hit square
         healthPoints = ((healthPoints +10.0f) * 2.0f);
-        //Debug.Log(healthPoints);
-        float forceToAddX = ((attackForce*2.0f) + healthPoints) * 2.0f;
-        float forceToAddY = ((attackForce+10.0f) + healthPoints) * 2.0f;
+
+        float forceToAddX = ((attackForce*2.0f) + healthPoints) * 1.5f;
+        float forceToAddY = ((attackForce+10.0f) + healthPoints) * 1.2f;
         if (facingRight)
         {
             forceToAddX = forceToAddX * -1.0f;
         }
         enemyBody.AddForce(new Vector2(forceToAddX, forceToAddY));
-        //Debug.Log(forceToAdd);
     }
 
     public void FlipEnemy()
