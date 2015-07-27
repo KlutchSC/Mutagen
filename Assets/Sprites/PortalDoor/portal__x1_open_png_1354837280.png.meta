@@ -1,0 +1,385 @@
+fileFormatVersion: 2
+guid: 51742f2e1e41f5f43a69b2d2696175d4
+timeCreated: 1430852748
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: portal__x1_open_png_1354837280_0
+    21300002: portal__x1_open_png_1354837280_1
+    21300004: portal__x1_open_png_1354837280_2
+    21300006: portal__x1_open_png_1354837280_3
+    21300008: portal__x1_open_png_1354837280_4
+    21300010: portal__x1_open_png_1354837280_5
+    21300012: portal__x1_open_png_1354837280_6
+    21300014: portal__x1_open_png_1354837280_7
+    21300016: portal__x1_open_png_1354837280_8
+    21300018: portal__x1_open_png_1354837280_9
+    21300020: portal__x1_open_png_1354837280_10
+    21300022: portal__x1_open_png_1354837280_11
+    21300024: portal__x1_open_png_1354837280_12
+    21300026: portal__x1_open_png_1354837280_13
+    21300028: portal__x1_open_png_1354837280_14
+    21300030: portal__x1_open_png_1354837280_15
+    21300032: portal__x1_open_png_1354837280_16
+    21300034: portal__x1_open_png_1354837280_17
+    21300036: portal__x1_open_png_1354837280_18
+    21300038: portal__x1_open_png_1354837280_19
+    21300040: portal__x1_open_png_1354837280_20
+    21300042: portal__x1_open_png_1354837280_21
+    21300044: portal__x1_open_png_1354837280_22
+    21300046: portal__x1_open_png_1354837280_23
+    21300048: portal__x1_open_png_1354837280_24
+    21300050: portal__x1_open_png_1354837280_25
+    21300052: portal__x1_open_png_1354837280_26
+    21300054: portal__x1_open_png_1354837280_27
+    21300056: portal__x1_open_png_1354837280_28
+    21300058: portal__x1_open_png_1354837280_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: portal__x1_open_png_1354837280_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 294
+        width: 98
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portal__x1_open_png_1354837280_1
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 294
+        width: 98
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portal__x1_open_png_1354837280_2
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 294
+        width: 98
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portal__x1_open_png_1354837280_3
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 294
+        width: 98
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portal__x1_open_png_1354837280_4
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 294
+        width: 98
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portal__x1_open_png_1354837280_5
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 294
+        width: 98
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portal__x1_open_png_1354837280_6
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 294
+        width: 98
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portal__x1_open_png_1354837280_7
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 294
+        width: 98
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portal__x1_open_png_1354837280_8
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 294
+        width: 98
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portal__x1_open_png_1354837280_9
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 294
+        width: 98
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portal__x1_open_png_1354837280_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 147
+        width: 98
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portal__x1_open_png_1354837280_11
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 147
+        width: 98
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portal__x1_open_png_1354837280_12
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 147
+        width: 98
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portal__x1_open_png_1354837280_13
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 147
+        width: 98
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portal__x1_open_png_1354837280_14
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 147
+        width: 98
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portal__x1_open_png_1354837280_15
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 147
+        width: 98
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portal__x1_open_png_1354837280_16
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 147
+        width: 98
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portal__x1_open_png_1354837280_17
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 147
+        width: 98
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portal__x1_open_png_1354837280_18
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 147
+        width: 98
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portal__x1_open_png_1354837280_19
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 147
+        width: 98
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portal__x1_open_png_1354837280_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 98
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portal__x1_open_png_1354837280_21
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 0
+        width: 98
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portal__x1_open_png_1354837280_22
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 0
+        width: 98
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portal__x1_open_png_1354837280_23
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 0
+        width: 98
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portal__x1_open_png_1354837280_24
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 0
+        width: 98
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portal__x1_open_png_1354837280_25
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 0
+        width: 98
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portal__x1_open_png_1354837280_26
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 0
+        width: 98
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portal__x1_open_png_1354837280_27
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 0
+        width: 98
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portal__x1_open_png_1354837280_28
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 0
+        width: 98
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portal__x1_open_png_1354837280_29
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 0
+        width: 98
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
