@@ -3,8 +3,10 @@ using System.Collections;
 
 public class PlayerController : Unit {
 
+    public static PlayerController pControl;
+
     Rigidbody2D myBody;
-    string curMutagen;
+    public string curMutagen;
 
     bool jumpCheck;
     bool facingRight = true;

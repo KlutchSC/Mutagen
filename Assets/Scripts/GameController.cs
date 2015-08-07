@@ -19,11 +19,6 @@ public class GameController : MonoBehaviour {
             Destroy(gameObject);
         }
     }
-
-	void Start ()
-    {
-	
-	}
 	
 	void Update () 
     {

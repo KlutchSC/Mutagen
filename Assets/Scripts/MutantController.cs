@@ -74,14 +74,14 @@ public class MutantController : EnemyController {
 
     public override void Action()
     {
-        //if (attackRange == true)
-        //{
-        //    InvokeRepeating("Attack", 0.5f, 2.0f);
-        //}
-        //if (attackRange == false)
-        //{
-        //    CancelInvoke();
-        //}
+        if (attackRange == true)
+        {
+            Invoke("Attack", 2.0f);
+        }
+        if (attackRange == false)
+        {
+            CancelInvoke();
+        }
     }
 
     public override void Move(string dir)
@@ -110,7 +110,7 @@ public class MutantController : EnemyController {
     public void TakeDamage()
     {
         healthPoints = ((healthPoints - 10.0f));
-        //Debug.Log(healthPoints);
+
         float forceToAddX = (attackForce);
         float forceToAddY = (attackForce + 10.0f);
         if (facingRight)
@@ -118,7 +118,6 @@ public class MutantController : EnemyController {
             forceToAddX = forceToAddX * -1.0f;
         }
         enemyBody.AddForce(new Vector2(forceToAddX, forceToAddY));
-        //Debug.Log(forceToAdd);
     }
 
     public void FlipEnemy()

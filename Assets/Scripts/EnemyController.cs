@@ -22,8 +22,8 @@ public class EnemyController : Unit {
     public GameObject player;
     public GameObject attackArea;
 
-	// Use this for initialization
-	void Start () {
+	void Start () 
+    {
         attackForce = 50.0f;
         enemyBody = this.GetComponent<Rigidbody2D>();
 
@@ -32,9 +32,8 @@ public class EnemyController : Unit {
         maxHealth = 100.0f;
 	}
 	
-	// Update is called once per frame
-	void Update () {
-
+	void Update () 
+    {
         attackRange = Physics2D.OverlapCircle(rangeCheck.position, 1.1f, (whatIsEnemy));
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.6f, (whatIsGround));
 
@@ -71,14 +70,16 @@ public class EnemyController : Unit {
 
     public override void Action()
     {
-        //if (attackRange == true)
-        //{
-        //    InvokeRepeating("Attack", 0.5f, 2.0f);
-        //}
-        //if (attackRange == false)
-        //{
-        //    CancelInvoke();
-        //}
+        if (attackRange == true)
+        {
+            Invoke("Attack", 2.0f);
+            CancelInvoke();
+            Invoke("Evade", 0.5f);
+        }
+        if (attackRange == false)
+        {
+            CancelInvoke();
+        }
     }
 
     public override void Move(string dir)
@@ -106,10 +107,10 @@ public class EnemyController : Unit {
 
     public void TakeDamage()
     {
-        healthPoints = ((healthPoints +10.0f) * 2.0f);
+        healthPoints = ((healthPoints + 10.0f) * 2.0f);
 
-        float forceToAddX = ((attackForce*2.0f) + healthPoints) * 1.5f;
-        float forceToAddY = ((attackForce+10.0f) + healthPoints) * 1.2f;
+        float forceToAddX = ((attackForce*2.0f) + healthPoints) * 1.2f;
+        float forceToAddY = ((attackForce+10.0f) + healthPoints) * 1.1f;
         if (facingRight)
         {
             forceToAddX = forceToAddX * -1.0f;
@@ -156,5 +157,17 @@ public class EnemyController : Unit {
     public void KillMe()
     {
         Destroy(this.gameObject);
+    }
+
+    public void Evade()
+    {
+        if (facingRight)
+        {
+            Move("left");
+        }
+        else
+        {
+            Move("right");
+        }
     }
 }
